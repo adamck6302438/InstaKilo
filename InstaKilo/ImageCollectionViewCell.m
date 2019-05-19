@@ -10,4 +10,8 @@
 
 @implementation ImageCollectionViewCell
 
+- (void)addImage:(UIImage *)image{
+    self.imageView.image = image;
+}
+
 @end
